@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0 0px;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+}
+
+.contact {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+html {
+    font-size: 1.25em
+}
+
+.formbox {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+
+
+.title-formbox {
+    background-color: #32414d;
+}
+.title-formbox h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+    font-weight: 600;
+    font-size: 1.25em;
+    padding: 1em;
+
+}
+.reqfld {
+    font-size: .5em;
+}
+
+.intro {
+    font-size: .85em;
+    text-align: center;
+    margin-bottom: 1.25em;
+    padding: 14px 15px;
+    color: darkslategray;
+    font-weight: 200;
+}
+.copyright {
+    text-align: center;
+}
+.newsletter p {
+    text-align: left;
+    font-size: 1em;
+    padding: 10px 0px;
+    color: darkslategray;
+    margin-top: .5em;
+}
+.format  {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 10px;
+    margin-bottom: .25em;
+    font-size: .85em;
+}
+
+.newsletter-formbox {
+    display: inline-block;
+    border-style: none;
+    margin: 5px;
+}
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+hr.bigboi {
+    border: 3px solid #32414d;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 0 0 0;
+
+}
+hr.littleboi {
+    border: 2px solid #32414d;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 0 2em 0;
+    padding-top: 5px;
+    margin-bottom: 2em;
+}
+h1, h2, h3, a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1em;
+    margin-top: 1em;
+    font-weight: 800;
+    text-align: center;
+   color: darkslategray;
+}
+
+h4 {
+    font-size: .75em;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+
+h3 {
+    font-size: .75em;
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+
+
+form {
+    margin: 0;
+}
+.fieldset{
+    border: none;
+    margin: 10px;
+}
+.contact-info {
+    border-style: none;
+}
+.newsletter {
+    border-style: none;
+}
+
+
+  textarea#other-topics:hover {
+    background-color:#C9E0DB;
+  }
+  
+ textarea#other-topics:focus,
+ textarea#other-topics:active {
+    background-color: rgb(251, 238, 238);
+    transition: background-color 0.5s ease;
+  }
+
+.contact-form input, textarea {
+    display: block; 
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px; 
+    font-size: .75em;
+    background: #EFF3F8; 
+    border:none;
+    border-radius: 5px;
+    padding: 0.75em;
+    margin-right: 16em;
+}
+.contact-form input:hover {
+    background-color: #dfdddd;
+    cursor: pointer;
+  }
+  
+ .contact-form input:focus,
+ .contact-form input:active {
+    background-color: #F5FFFE;
+    transition: background-color 0.5s ease;
+}
+
+  select#state:hover {
+    background-color: #C9E0DB;
+  }
+  
+  select#state:focus,
+  select#state input:active {
+    background-color: rgb(251, 238, 238);
+    transition: background-color 0.5s ease;
+    
+  }
+#name::placeholder,
+#email::placeholder,
+#address::placeholder,
+#telephone::placeholder,
+#city::placeholder,
+#zip::placeholder {
+  text-align: right;
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+  width: 5%;
+  text-align: right;
+
+}
+.newsletter_method {
+    width: 95%;
+}
+
+legend {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+
+label {
+    display: inline-block; 
+    margin-top: .5rem;
+    font-size: 1em;
+    padding-bottom: 3px;
+}
+
+.other-topics {
+    text-align: left;
+    font-size: 1em;
+}
+#zip {
+    width: 50%;
+}
+.form-field-zip {
+    display: inline-block;
+    
+}
+
+
+textarea {
+    height: 100px;
+}
+
+.newsletter label{
+    display: inline-block;
+ } 
+
+#checkbox, #radio {
+    padding: 0;
+    display: inline-block;
+    width:  50%;
+ } 
+.button {
+    padding: 19px 39px 18px 39px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1em;
+}
+.button:hover {
+    background-color: seagreen;
+  }
+  
+  .button:focus,
+  .button:active {
+    background-color: yellowgreen;
+    transition: none;
+    color: white;
+  }
+
+#state {
+    display: block; 
+    width: 100%;
+    margin: 8px 0;
+    padding: 20px 8px 20px 8px; 
+    font-size: .75em;
+    color:lightslategray;
+    background: #EFF3F8; 
+    border:none;
+    border-radius: 5px;
+    text-align: right;
+
+}
+      
+.bar {
+    padding-bottom: 1em;
+
+}
+.copyright {
+    color: darkslategray;
+    padding-top: 30px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px)
+
+{
+    
+    p.reqfld{
+        display:none;
+    }
+
+hr.bigboi {
+    border: 3px solid #32414d;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 0 0 0 ;
+
+}
+hr.littleboi {
+    border: 2px solid #32414d;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 0 2em 0;
+    padding-top: 5px;
+    margin-bottom: 2em;
+}
+.formbox {
+width: 100%;
+}
+
+.title-formbox {
+    margin-left:-100%;
+    margin-right:-100%;
+    text-align:center;
+    }
+    
+    
+.contact {
+	margin: 0 6em;
+    width:70%;
+    padding-left:20%;
+}
+.form-field {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: .5rem 0 0 1em;
+    font-size: .75em;
+}
+.form-field-zip {
+    display: inline-flex;
+    width: 66%;
+    margin: .5rem 0 0 1em;
+    font-size: .75em;
+    margin-right: 22em;
+}
+.contact-form input, textarea {
+    display: inline-flex;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    font-size: .75em;
+    background: #EFF3F8;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75em;
+}
+.contact-form label {
+    display: inline-flex;
+    align-items: stretch;
+    width: 50%;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.25em;
+    
+
+}
+    
+    
+    .copyright {
+    color: darkslategray;
+    padding-top: 28px;
+    padding-right:50px;
+}
+    
+#state {
+    display: block; 
+    font-size: .75em;
+    width: 100%;
+    margin: 8px 0 8px 0;
+    padding: 20px 8px 20px 8px; 
+    color: #000;
+    background: #EFF3F8; 
+    border:none;
+    border-radius: 5px;
+}
+#zip {
+    width: 25%;
+}
+    
+.bar {
+    padding-bottom: 1em;
+    width: 104%;
+}
+}
