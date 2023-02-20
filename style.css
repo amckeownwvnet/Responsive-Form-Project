@@ -15,7 +15,7 @@ html {
 }
 
 .formbox {
-    max-width: 860px;
+    width:100%;
     margin: 0 auto;
 }
 
@@ -69,21 +69,22 @@ html {
     margin: 5px;
 }
 hr {
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 hr.bigboi {
     border: 3px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 0 0 0;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:center;
 
 }
 hr.littleboi {
     border: 2px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 0 2em 0;
+    margin-left:5%;
+    margin-right:5%;
     padding-top: 5px;
     margin-bottom: 2em;
 }
@@ -294,14 +295,16 @@ hr.bigboi {
     border: 3px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 0 0 0 ;
+    margin-left:25%;
+    margin-right:25%;
 
 }
 hr.littleboi {
     border: 2px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 0 2em 0;
+    margin-left:25%;
+    margin-right:25%;
     padding-top: 5px;
     margin-bottom: 2em;
 }
@@ -310,8 +313,6 @@ width: 100%;
 }
 
 .title-formbox {
-    margin-left:-100%;
-    margin-right:-100%;
     text-align:center;
     }
     
@@ -376,7 +377,7 @@ width: 100%;
     border-radius: 5px;
 }
 #zip {
-    width: 25%;
+    width: 40%;
 }
     
 .bar {
